@@ -1,0 +1,9 @@
+<odoo>
+
+    <menuitem id="main_menu_train" name="Train"/>
+
+    <menuitem id="menu_bar_train" name="Train" parent="main_menu_train"/>
+    <menuitem id="menu_item_train_train" name="Train" parent="menu_bar_train" action="train_train_action"/>
+
+
+</odoo>
